@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: gray;
+}
+
+header{
+    max-width: 1000px;
+    min-height: 170px;
+    margin: 0 auto;
+    border-radius:20px 20px 0 0;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#ff3019+35,cf0404+78 */
+background: linear-gradient(to bottom,  #ff3019 35%,#cf0404 78%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+#logo{
+    width: 350px;
+    float: left;
+    margin-top: 6px;
+    margin-left:6px;
+}
+
+    
+#menuu{
+    max-width: 1000px;
+    min-height: 70px;
+    background-color:#ffffff ;
+    margin: 0 auto;
+}
+#menuu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#menuu a{
+    color: black ;
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    background-color: white;
+    font-size: 25px;
+}
+#menuu a:hover{
+    background-color:rgb(206, 187, 187);
+}
+
+
+#menuu ul li:hover ul{
+    display: block;
+}
+#Banner{
+    max-width: 1000px;
+    min-height: 200px;
+    background: black;
+    margin: 0 auto;
+}
+#conte{
+    max-width: 1000px;
+    min-height: 1300px;
+    background:white;
+    margin: 0 auto;
+}
+
+
+#memop a:hover img{
+    animation: 1s rotacion 1;
+}
+#memop{
+    width:300px;
+    min-height: 600px;
+    background:white;
+    float: left;
+}
+
+#memop ul{
+list-style: none;
+padding:10px;
+}
+
+#memop a{
+display:block ;
+color:white;
+background:#ca1414;
+padding:10px;
+text-decoration: none;
+margin-bottom: 8px;
+border-radius: 5px;
+font-size: 18px;
+
+}
+#memop li a:hover{
+background:rgb(255, 105, 105);
+}
+
+#contenidop{
+    width: 700px;
+    min-height: 600;
+    background:white;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#conte h2{
+text-align: center;
+margin-bottom: 30px;
+}
+#conte p{
+    margin-bottom: 5px;
+    font-family: Calibri,;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.descargaaa{
+    text-align: center;
+    margin-right:10px ;
+    margin-bottom: 10px;
+    width: 250px; 
+    border: 2px black ;
+    padding: 5px;
+}
+.harta{
+    margin-left:180px;
+    margin-right:10px ;
+    margin-top: 45px;
+    width: 250px; 
+    border: 2px black ;
+    padding: 5px;  
+}
+
+footer{
+    max-width: 1000px;
+    background:black;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px ;
+    color:red;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+.aja{
+    width: 40px;
+    height: 40px;
+}
+
+@keyframes rotacion  {
+    0%{
+        transform: rotate(270deg);
+    }
+}
